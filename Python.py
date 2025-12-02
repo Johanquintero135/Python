@@ -1,7 +1,7 @@
 import random
 
 opciones = ["piedra", "papel", "tijeras"]
-Usuario =  input("Escoge cual opcion vas a eligir si Piedra, papel o tijeras:").lower()
+Usuario =  input("Hola instructor,escoge cual opcion vas a eligir si Piedra, papel o tijeras:").lower()
 Computadora = random.choice(opciones)
 
 print (f"El computador escogio:{Computadora}")
@@ -23,7 +23,7 @@ while True:
     if jugar_nuevamente == 'si':
         opciones = ["piedra", "papel", "tijeras"]
         
-        Usuario = input("Escoge cual opcion vas a eligir si piedra, papel o tijeras:").lower()
+        Usuario = input("Escoge de nievo cual opcion vas a eligir si piedra, papel o tijeras:").lower()
         
         Computadora = random.choice(opciones)
         
@@ -45,4 +45,4 @@ while True:
         break
 
     else:
-        print("Entrada no válida. Por favor, responde con 'si' o 'no'.")
+        print("Entrada no válida instructor. Por favor, responde con 'si' o 'no', muchas gracias.")
